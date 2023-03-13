@@ -12,3 +12,7 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+//This is where I am starting I am pretty sure an array with a mathfloor mathrandom is they way to go. It's a long array because Upper and Lower case letters would each have a different value. Plus numbers and special characters.
+var passwordOptionsArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "!", "@", "#", "$", "%", "^", "&", "*", ")", "(", "?", ">", "<", ".", ",", "-", "+", "=", ";", ":", "[", "]", "{", "}", "~",];
+console.log(passwordOptionsArray.length);
